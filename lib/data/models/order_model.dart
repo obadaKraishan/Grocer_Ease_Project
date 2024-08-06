@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:grocer_ease/data/models/user_model.dart';
 import 'order_item_model.dart';
 import 'address_model.dart';
 import 'payment_method_model.dart';
