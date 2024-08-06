@@ -1,6 +1,31 @@
-part of 'user_bloc.dart';
+import 'package:equatable/equatable.dart';
+import 'package:grocer_ease/data/models/user_model.dart';
 
-@immutable
-sealed class UserState {}
+abstract class UserState extends Equatable {
+  const UserState();
 
-final class UserInitial extends UserState {}
+  @override
+  List<Object> get props => [];
+}
+
+class UserInitial extends UserState {}
+
+class UserLoading extends UserState {}
+
+class UserLoaded extends UserState {
+  final UserModel user;
+
+  UserLoaded(this.user);
+
+  @override
+  List<Object> get props => [user];
+}
+
+class UserError extends UserState {
+  final String message;
+
+  UserError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
