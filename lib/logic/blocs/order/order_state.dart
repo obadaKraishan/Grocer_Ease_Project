@@ -1,6 +1,31 @@
-part of 'order_bloc.dart';
+import 'package:equatable/equatable.dart';
+import 'package:grocer_ease/data/models/order_model.dart';
 
-@immutable
-sealed class OrderState {}
+abstract class OrderState extends Equatable {
+  const OrderState();
 
-final class OrderInitial extends OrderState {}
+  @override
+  List<Object> get props => [];
+}
+
+class OrderInitial extends OrderState {}
+
+class OrderLoading extends OrderState {}
+
+class OrderLoaded extends OrderState {
+  final OrderModel order;
+
+  OrderLoaded(this.order);
+
+  @override
+  List<Object> get props => [order];
+}
+
+class OrderError extends OrderState {
+  final String message;
+
+  OrderError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
