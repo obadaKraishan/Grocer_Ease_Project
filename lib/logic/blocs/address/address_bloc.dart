@@ -1,13 +1,53 @@
-import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
-
-part 'address_event.dart';
-part 'address_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:grocer_ease/data/repositories/address_repository.dart';
+import 'address_event.dart';
+import 'address_state.dart';
 
 class AddressBloc extends Bloc<AddressEvent, AddressState> {
-  AddressBloc() : super(AddressInitial()) {
-    on<AddressEvent>((event, emit) {
-      // TODO: implement event handler
+  final AddressRepository _addressRepository;
+
+  AddressBloc(this._addressRepository) : super(AddressInitial()) {
+    on<LoadAddresses>((event, emit) async {
+      emit(AddressLoading());
+      try {
+        final addresses = await _addressRepository.getAllAddressesForUser(event.userId);
+        emit(AddressLoaded(addresses));
+      } catch (e) {
+        emit(AddressError(e.toString()));
+      }
+    });
+
+    on<AddAddress>((event, emit) async {
+      emit(AddressLoading());
+      try {
+        await _addressRepository.createAddress(event.address);
+        final addresses = await _addressRepository.getAllAddressesForUser(event.address.userId);
+        emit(AddressLoaded(addresses));
+      } catch (e) {
+        emit(AddressError(e.toString()));
+      }
+    });
+
+    on<UpdateAddress>((event, emit) async {
+      emit(AddressLoading());
+      try {
+        await _addressRepository.updateAddress(event.address);
+        final addresses = await _addressRepository.getAllAddressesForUser(event.address.userId);
+        emit(AddressLoaded(addresses));
+      } catch (e) {
+        emit(AddressError(e.toString()));
+      }
+    });
+
+    on<DeleteAddress>((event, emit) async {
+      emit(AddressLoading());
+      try {
+        await _addressRepository.deleteAddress(event.addressId);
+        final addresses = await _addressRepository.getAllAddressesForUser(event.addressId);
+        emit(AddressLoaded(addresses));
+      } catch (e) {
+        emit(AddressError(e.toString()));
+      }
     });
   }
 }
