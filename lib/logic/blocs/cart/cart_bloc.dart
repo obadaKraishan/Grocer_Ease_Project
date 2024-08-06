@@ -1,13 +1,63 @@
-import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
-
-part 'cart_event.dart';
-part 'cart_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:grocer_ease/data/repositories/cart_repository.dart';
+import 'cart_event.dart';
+import 'cart_state.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {
-  CartBloc() : super(CartInitial()) {
-    on<CartEvent>((event, emit) {
-      // TODO: implement event handler
+  final CartRepository _cartRepository;
+
+  CartBloc(this._cartRepository) : super(CartInitial()) {
+    on<LoadCart>((event, emit) async {
+      emit(CartLoading());
+      try {
+        final cartItems = await _cartRepository.getCartItems(event.userId);
+        emit(CartLoaded(cartItems));
+      } catch (e) {
+        emit(CartError(e.toString()));
+      }
+    });
+
+    on<AddCartItem>((event, emit) async {
+      emit(CartLoading());
+      try {
+        await _cartRepository.addCartItem(event.cartItem);
+        final cartItems = await _cartRepository.getCartItems(event.cartItem.userId);
+        emit(CartLoaded(cartItems));
+      } catch (e) {
+        emit(CartError(e.toString()));
+      }
+    });
+
+    on<UpdateCartItem>((event, emit) async {
+      emit(CartLoading());
+      try {
+        await _cartRepository.updateCartItem(event.cartItem);
+        final cartItems = await _cartRepository.getCartItems(event.cartItem.userId);
+        emit(CartLoaded(cartItems));
+      } catch (e) {
+        emit(CartError(e.toString()));
+      }
+    });
+
+    on<RemoveCartItem>((event, emit) async {
+      emit(CartLoading());
+      try {
+        await _cartRepository.removeCartItem(event.cartItemId);
+        final cartItems = await _cartRepository.getCartItems(event.cartItemId);
+        emit(CartLoaded(cartItems));
+      } catch (e) {
+        emit(CartError(e.toString()));
+      }
+    });
+
+    on<ClearCart>((event, emit) async {
+      emit(CartLoading());
+      try {
+        await _cartRepository.clearCart(event.userId);
+        emit(CartLoaded([]));
+      } catch (e) {
+        emit(CartError(e.toString()));
+      }
     });
   }
 }
