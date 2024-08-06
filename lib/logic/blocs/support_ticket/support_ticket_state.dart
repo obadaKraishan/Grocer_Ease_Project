@@ -1,6 +1,31 @@
-part of 'support_ticket_bloc.dart';
+import 'package:equatable/equatable.dart';
+import 'package:grocer_ease/data/models/support_ticket_model.dart';
 
-@immutable
-sealed class SupportTicketState {}
+abstract class SupportTicketState extends Equatable {
+  const SupportTicketState();
 
-final class SupportTicketInitial extends SupportTicketState {}
+  @override
+  List<Object> get props => [];
+}
+
+class SupportTicketInitial extends SupportTicketState {}
+
+class SupportTicketLoading extends SupportTicketState {}
+
+class SupportTicketLoaded extends SupportTicketState {
+  final List<SupportTicketModel> tickets;
+
+  SupportTicketLoaded(this.tickets);
+
+  @override
+  List<Object> get props => [tickets];
+}
+
+class SupportTicketError extends SupportTicketState {
+  final String message;
+
+  SupportTicketError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
