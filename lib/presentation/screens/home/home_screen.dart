@@ -5,10 +5,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Supermarket App Home'),
+        title: Text('GrocerEase Home'),
       ),
       body: Center(
-        child: Text('Welcome to the Supermarket App!'),
+        child: Text('Welcome to GrocerEase!'),
       ),
     );
   }
