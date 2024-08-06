@@ -1,6 +1,31 @@
-part of 'category_bloc.dart';
+import 'package:equatable/equatable.dart';
+import 'package:grocer_ease/data/models/category_model.dart';
 
-@immutable
-sealed class CategoryState {}
+abstract class CategoryState extends Equatable {
+  const CategoryState();
 
-final class CategoryInitial extends CategoryState {}
+  @override
+  List<Object> get props => [];
+}
+
+class CategoryInitial extends CategoryState {}
+
+class CategoryLoading extends CategoryState {}
+
+class CategoryLoaded extends CategoryState {
+  final CategoryModel category;
+
+  CategoryLoaded(this.category);
+
+  @override
+  List<Object> get props => [category];
+}
+
+class CategoryError extends CategoryState {
+  final String message;
+
+  CategoryError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
