@@ -1,13 +1,53 @@
-import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
-
-part 'banner_event.dart';
-part 'banner_state.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:grocer_ease/data/repositories/banner_repository.dart';
+import 'banner_event.dart';
+import 'banner_state.dart';
 
 class BannerBloc extends Bloc<BannerEvent, BannerState> {
-  BannerBloc() : super(BannerInitial()) {
-    on<BannerEvent>((event, emit) {
-      // TODO: implement event handler
+  final BannerRepository _bannerRepository;
+
+  BannerBloc(this._bannerRepository) : super(BannerInitial()) {
+    on<LoadBanners>((event, emit) async {
+      emit(BannerLoading());
+      try {
+        final banners = await _bannerRepository.getAllBanners();
+        emit(BannerLoaded(banners));
+      } catch (e) {
+        emit(BannerError(e.toString()));
+      }
+    });
+
+    on<CreateBanner>((event, emit) async {
+      emit(BannerLoading());
+      try {
+        await _bannerRepository.createBanner(event.banner);
+        final banners = await _bannerRepository.getAllBanners();
+        emit(BannerLoaded(banners));
+      } catch (e) {
+        emit(BannerError(e.toString()));
+      }
+    });
+
+    on<UpdateBanner>((event, emit) async {
+      emit(BannerLoading());
+      try {
+        await _bannerRepository.updateBanner(event.banner);
+        final banners = await _bannerRepository.getAllBanners();
+        emit(BannerLoaded(banners));
+      } catch (e) {
+        emit(BannerError(e.toString()));
+      }
+    });
+
+    on<DeleteBanner>((event, emit) async {
+      emit(BannerLoading());
+      try {
+        await _bannerRepository.deleteBanner(event.bannerId);
+        final banners = await _bannerRepository.getAllBanners();
+        emit(BannerLoaded(banners));
+      } catch (e) {
+        emit(BannerError(e.toString()));
+      }
     });
   }
 }

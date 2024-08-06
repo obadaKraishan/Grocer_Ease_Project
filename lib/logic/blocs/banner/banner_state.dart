@@ -1,6 +1,31 @@
-part of 'banner_bloc.dart';
+import 'package:equatable/equatable.dart';
+import 'package:grocer_ease/data/models/banner_model.dart';
 
-@immutable
-sealed class BannerState {}
+abstract class BannerState extends Equatable {
+  const BannerState();
 
-final class BannerInitial extends BannerState {}
+  @override
+  List<Object> get props => [];
+}
+
+class BannerInitial extends BannerState {}
+
+class BannerLoading extends BannerState {}
+
+class BannerLoaded extends BannerState {
+  final List<BannerModel> banners;
+
+  BannerLoaded(this.banners);
+
+  @override
+  List<Object> get props => [banners];
+}
+
+class BannerError extends BannerState {
+  final String message;
+
+  BannerError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
