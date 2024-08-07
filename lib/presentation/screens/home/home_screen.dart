@@ -1,3 +1,5 @@
+// lib/presentation/screens/home/home_screen.dart
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -5,10 +7,13 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GrocerEase Home'),
+        title: Text('GrocerEase'),
       ),
       body: Center(
-        child: Text('Welcome to GrocerEase!'),
+        child: Text(
+          'Home Screen',
+          style: Theme.of(context).textTheme.headlineLarge,
+        ),
       ),
     );
   }
