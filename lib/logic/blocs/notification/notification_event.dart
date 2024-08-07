@@ -19,9 +19,10 @@ class LoadNotifications extends NotificationEvent {
 
 class MarkNotificationAsRead extends NotificationEvent {
   final String notificationId;
+  final String userId; // Add userId
 
-  MarkNotificationAsRead(this.notificationId);
+  MarkNotificationAsRead(this.notificationId, this.userId); // Update constructor
 
   @override
-  List<Object> get props => [notificationId];
+  List<Object> get props => [notificationId, userId]; // Update props
 }

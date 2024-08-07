@@ -20,7 +20,11 @@ class NotificationRepository {
     await _notificationService.deleteNotification(notificationId);
   }
 
-  Future<List<NotificationModel>> getAllNotificationsForUser(String userId) async {
+  Future<List<NotificationModel>> getNotifications(String userId) async {
     return await _notificationService.getAllNotificationsForUser(userId);
+  }
+
+  Future<void> markAsRead(String notificationId) async {
+    await _notificationService.markAsRead(notificationId);
   }
 }

@@ -20,8 +20,8 @@ class NotificationBloc extends Bloc<NotificationEvent, NotificationState> {
     on<MarkNotificationAsRead>((event, emit) async {
       try {
         await _notificationRepository.markAsRead(event.notificationId);
-        // Assuming reloading notifications after marking as read
-        final notifications = await _notificationRepository.getNotifications(event.notificationId);
+        // Reload notifications for the user after marking as read
+        final notifications = await _notificationRepository.getNotifications(event.userId);
         emit(NotificationLoaded(notifications));
       } catch (e) {
         emit(NotificationError(e.toString()));

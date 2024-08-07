@@ -40,4 +40,8 @@ class NotificationService {
         .map((doc) => NotificationModel.fromDocument(doc))
         .toList();
   }
+
+  Future<void> markAsRead(String notificationId) async {
+    await _firestore.collection('notifications').doc(notificationId).update({'read': true});
+  }
 }
