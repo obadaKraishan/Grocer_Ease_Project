@@ -20,7 +20,16 @@ class SearchHistoryRepository {
     await _searchHistoryService.deleteSearchHistory(searchHistoryId);
   }
 
-  Future<List<SearchHistoryModel>> getAllSearchHistoriesForUser(String userId) async {
-    return await _searchHistoryService.getAllSearchHistoriesForUser(userId);
+  Future<List<SearchTerm>> getAllSearchHistoriesForUser(String userId) async {
+    final searchHistories = await _searchHistoryService.getAllSearchHistoriesForUser(userId);
+    return searchHistories.expand((history) => history.searchTermList).toList();
+  }
+
+  Future<void> addSearchTerm(String userId, SearchTerm searchTerm) async {
+    await _searchHistoryService.addSearchTerm(userId, searchTerm);
+  }
+
+  Future<void> clearSearchHistory(String userId) async {
+    await _searchHistoryService.clearSearchHistory(userId);
   }
 }

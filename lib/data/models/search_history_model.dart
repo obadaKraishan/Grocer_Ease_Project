@@ -51,4 +51,7 @@ class SearchHistoryModel {
       'search_terms': searchTerms.map((item) => item.toMap()).toList(),
     };
   }
+
+  List<SearchTerm> get searchTermList => searchTerms;
 }
+
