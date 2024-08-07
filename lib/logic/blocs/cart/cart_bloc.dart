@@ -20,7 +20,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     on<AddCartItem>((event, emit) async {
       emit(CartLoading());
       try {
-        await _cartRepository.addCartItem(event.cartItem);
+        await _cartRepository.addCartItem(event.cartItem, event.cartItem.userId); // Pass userId
         final cartItems = await _cartRepository.getCartItems(event.cartItem.userId);
         emit(CartLoaded(cartItems));
       } catch (e) {
@@ -31,7 +31,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     on<UpdateCartItem>((event, emit) async {
       emit(CartLoading());
       try {
-        await _cartRepository.updateCartItem(event.cartItem);
+        await _cartRepository.updateCartItem(event.cartItem, event.cartItem.userId); // Pass userId
         final cartItems = await _cartRepository.getCartItems(event.cartItem.userId);
         emit(CartLoaded(cartItems));
       } catch (e) {
@@ -42,7 +42,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     on<RemoveCartItem>((event, emit) async {
       emit(CartLoading());
       try {
-        await _cartRepository.removeCartItem(event.cartItemId);
+        await _cartRepository.removeCartItem(event.cartItemId, event.cartItemId); // Pass userId
         final cartItems = await _cartRepository.getCartItems(event.cartItemId);
         emit(CartLoaded(cartItems));
       } catch (e) {
