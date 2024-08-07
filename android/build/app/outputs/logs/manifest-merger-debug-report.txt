@@ -1,0 +1,871 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:2:5-33:19
+MERGED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-34:19
+MERGED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-34:19
+MERGED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-28:19
+MERGED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-28:19
+MERGED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/75c2203edc4f7cbfe966f1d13b468b1f/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/75c2203edc4f7cbfe966f1d13b468b1f/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:26:5-37:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/f018235876ed4b58bf30147d4fa95e11/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/f018235876ed4b58bf30147d4fa95e11/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c542caf29b48a4561d0008791b77d8e3/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c542caf29b48a4561d0008791b77d8e3/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/f57264b75c3ac5e0aedc19023296c982/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/f57264b75c3ac5e0aedc19023296c982/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b1622fe340772d2d2aafbc925397f7c9/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b1622fe340772d2d2aafbc925397f7c9/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/10464d4fc2ab88f084723d0e9072deeb/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/10464d4fc2ab88f084723d0e9072deeb/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/2b3148a142bde0172588f36aa201999b/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/2b3148a142bde0172588f36aa201999b/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/86fca6fc991c1e3122120514b04168c0/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/86fca6fc991c1e3122120514b04168c0/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/22c6c8cbcf06a922334443067ec1e551/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/22c6c8cbcf06a922334443067ec1e551/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:connectivity_plus] /Users/obadakraishan/StudioProjects/grocer_ease/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:google_maps_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-36:12
+MERGED from [:local_auth_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /Users/obadakraishan/StudioProjects/grocer_ease/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:path_provider_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-30:12
+MERGED from [:shared_preferences_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/obadakraishan/StudioProjects/grocer_ease/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:webview_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/75c2203edc4f7cbfe966f1d13b468b1f/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/4384890c8d2b8c8bc698102422592fea/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb5286dfaf9a998c168f4b74a1503792/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6c02817f55672d48b6246da1a68d12a7/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/97a9307418735041a370f38e82f6fe9f/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/f018235876ed4b58bf30147d4fa95e11/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.media:media:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/4797787dc87475b31caa64b5b0b17130/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-wallet:19.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/1098fe9e080aedf094111dc6361aa3ed/transformed/jetified-play-services-wallet-19.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c542caf29b48a4561d0008791b77d8e3/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/f57264b75c3ac5e0aedc19023296c982/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/obadakraishan/.gradle/caches/transforms-3/ba533fe2a991bdf6b90eac5c41f14881/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/b60e9eeb6b58f5ac0c35179ef5b86378/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b1622fe340772d2d2aafbc925397f7c9/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/10464d4fc2ab88f084723d0e9072deeb/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/obadakraishan/.gradle/caches/transforms-3/73e9bad096dffe128d65ebaf89732097/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/2b3148a142bde0172588f36aa201999b/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/86fca6fc991c1e3122120514b04168c0/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/85063b115e7411f111ecccf4f487cabf/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0c9be9c27799b908bda73dbb82e50359/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.1] /Users/obadakraishan/.gradle/caches/transforms-3/2e663860b6da031455eb12eb5398c9e8/transformed/jetified-activity-1.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.8.0] /Users/obadakraishan/.gradle/caches/transforms-3/ee966d4f52e610608b3586cdf6cd85b8/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.11.0] /Users/obadakraishan/.gradle/caches/transforms-3/cc8206dae507e880c29639a9cf0a2acf/transformed/webkit-1.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c680f1c612f0f1d4f8a8679acf09bf29/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ffbf9dc9bbc0544ddc77899599125a40/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/e088d6e0bcd87bb704524fc358c247e0/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0a1a0c5613363aa038653a739fbcb4d3/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/d2fc62a6e3d69214345cdfbcb2625d60/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/71e00f4e02895a0a885100c1f767bc5c/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/edb67a33ca1e1aa14496b32030e3df6d/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/80e3119ceef2fbe5dfdc484d2323602a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/22256e66ffdd4e65658236de9535326b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c02eadbe14a658139be512b6510de33d/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/d0e0ec819da30d2ef6dfe17fef65478a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/a68319f2e4e6383d6fdfe1fd02a3670f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/83d9c6c073d311cb18826b35f3f61079/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/5f46b6b00cb8c4d968ed0fe0ec5fc2cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/f43151513fbf0b8ce6832d746f4ae62d/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/obadakraishan/.gradle/caches/transforms-3/adb23db23f3dcf2c5544595ac30e5635/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/2ca1f14ae560caef3364d6783d8a99db/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/792b71a858d649bb5e4272e0d95468d4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/22c6c8cbcf06a922334443067ec1e551/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/8c8619689e7461f969ba6b8efdf365a6/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/21ab0d53a30dccf747913dcd086ab7fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/caf02cb7073bbf5fa8f1966527b9da30/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/7897be1b8604fc011d9b4964d2a230e4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/obadakraishan/.gradle/caches/transforms-3/6bb299e08e16771e1e73e511182f69e2/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/224e994179c65fa664c9f6d37ca6585c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/b4d68d15e5d6a9a001035f977c242dc7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:39:5-44:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:40:9-43:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:41:21-70
+data
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:42:13-50
+	android:mimeType
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml:42:19-48
+uses-sdk
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/obadakraishan/StudioProjects/grocer_ease/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/obadakraishan/StudioProjects/grocer_ease/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:local_auth_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:local_auth_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/obadakraishan/StudioProjects/grocer_ease/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/obadakraishan/StudioProjects/grocer_ease/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:shared_preferences_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/obadakraishan/StudioProjects/grocer_ease/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/obadakraishan/StudioProjects/grocer_ease/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/75c2203edc4f7cbfe966f1d13b468b1f/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/75c2203edc4f7cbfe966f1d13b468b1f/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/4384890c8d2b8c8bc698102422592fea/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/4384890c8d2b8c8bc698102422592fea/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb5286dfaf9a998c168f4b74a1503792/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb5286dfaf9a998c168f4b74a1503792/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6c02817f55672d48b6246da1a68d12a7/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6c02817f55672d48b6246da1a68d12a7/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/97a9307418735041a370f38e82f6fe9f/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/97a9307418735041a370f38e82f6fe9f/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/f018235876ed4b58bf30147d4fa95e11/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/f018235876ed4b58bf30147d4fa95e11/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/4797787dc87475b31caa64b5b0b17130/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/4797787dc87475b31caa64b5b0b17130/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wallet:19.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/1098fe9e080aedf094111dc6361aa3ed/transformed/jetified-play-services-wallet-19.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/1098fe9e080aedf094111dc6361aa3ed/transformed/jetified-play-services-wallet-19.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c542caf29b48a4561d0008791b77d8e3/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c542caf29b48a4561d0008791b77d8e3/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/f57264b75c3ac5e0aedc19023296c982/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/f57264b75c3ac5e0aedc19023296c982/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/obadakraishan/.gradle/caches/transforms-3/ba533fe2a991bdf6b90eac5c41f14881/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/obadakraishan/.gradle/caches/transforms-3/ba533fe2a991bdf6b90eac5c41f14881/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/b60e9eeb6b58f5ac0c35179ef5b86378/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/obadakraishan/.gradle/caches/transforms-3/b60e9eeb6b58f5ac0c35179ef5b86378/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b1622fe340772d2d2aafbc925397f7c9/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b1622fe340772d2d2aafbc925397f7c9/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/10464d4fc2ab88f084723d0e9072deeb/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/10464d4fc2ab88f084723d0e9072deeb/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/obadakraishan/.gradle/caches/transforms-3/73e9bad096dffe128d65ebaf89732097/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/obadakraishan/.gradle/caches/transforms-3/73e9bad096dffe128d65ebaf89732097/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/2b3148a142bde0172588f36aa201999b/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/2b3148a142bde0172588f36aa201999b/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/86fca6fc991c1e3122120514b04168c0/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/86fca6fc991c1e3122120514b04168c0/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/85063b115e7411f111ecccf4f487cabf/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/85063b115e7411f111ecccf4f487cabf/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0c9be9c27799b908bda73dbb82e50359/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0c9be9c27799b908bda73dbb82e50359/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/obadakraishan/.gradle/caches/transforms-3/2e663860b6da031455eb12eb5398c9e8/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/obadakraishan/.gradle/caches/transforms-3/2e663860b6da031455eb12eb5398c9e8/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/obadakraishan/.gradle/caches/transforms-3/ee966d4f52e610608b3586cdf6cd85b8/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/obadakraishan/.gradle/caches/transforms-3/ee966d4f52e610608b3586cdf6cd85b8/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.11.0] /Users/obadakraishan/.gradle/caches/transforms-3/cc8206dae507e880c29639a9cf0a2acf/transformed/webkit-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.11.0] /Users/obadakraishan/.gradle/caches/transforms-3/cc8206dae507e880c29639a9cf0a2acf/transformed/webkit-1.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c680f1c612f0f1d4f8a8679acf09bf29/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c680f1c612f0f1d4f8a8679acf09bf29/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ffbf9dc9bbc0544ddc77899599125a40/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ffbf9dc9bbc0544ddc77899599125a40/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/e088d6e0bcd87bb704524fc358c247e0/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/e088d6e0bcd87bb704524fc358c247e0/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0a1a0c5613363aa038653a739fbcb4d3/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/0a1a0c5613363aa038653a739fbcb4d3/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/d2fc62a6e3d69214345cdfbcb2625d60/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/d2fc62a6e3d69214345cdfbcb2625d60/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/71e00f4e02895a0a885100c1f767bc5c/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/71e00f4e02895a0a885100c1f767bc5c/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/edb67a33ca1e1aa14496b32030e3df6d/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/edb67a33ca1e1aa14496b32030e3df6d/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/80e3119ceef2fbe5dfdc484d2323602a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/80e3119ceef2fbe5dfdc484d2323602a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/22256e66ffdd4e65658236de9535326b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/22256e66ffdd4e65658236de9535326b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c02eadbe14a658139be512b6510de33d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/c02eadbe14a658139be512b6510de33d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/d0e0ec819da30d2ef6dfe17fef65478a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/d0e0ec819da30d2ef6dfe17fef65478a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/a68319f2e4e6383d6fdfe1fd02a3670f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/a68319f2e4e6383d6fdfe1fd02a3670f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/83d9c6c073d311cb18826b35f3f61079/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/obadakraishan/.gradle/caches/transforms-3/83d9c6c073d311cb18826b35f3f61079/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/5f46b6b00cb8c4d968ed0fe0ec5fc2cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/obadakraishan/.gradle/caches/transforms-3/5f46b6b00cb8c4d968ed0fe0ec5fc2cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/f43151513fbf0b8ce6832d746f4ae62d/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/f43151513fbf0b8ce6832d746f4ae62d/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/obadakraishan/.gradle/caches/transforms-3/adb23db23f3dcf2c5544595ac30e5635/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/obadakraishan/.gradle/caches/transforms-3/adb23db23f3dcf2c5544595ac30e5635/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/2ca1f14ae560caef3364d6783d8a99db/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/2ca1f14ae560caef3364d6783d8a99db/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/792b71a858d649bb5e4272e0d95468d4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/792b71a858d649bb5e4272e0d95468d4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/22c6c8cbcf06a922334443067ec1e551/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/22c6c8cbcf06a922334443067ec1e551/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/8c8619689e7461f969ba6b8efdf365a6/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/8c8619689e7461f969ba6b8efdf365a6/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/21ab0d53a30dccf747913dcd086ab7fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/21ab0d53a30dccf747913dcd086ab7fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/caf02cb7073bbf5fa8f1966527b9da30/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/caf02cb7073bbf5fa8f1966527b9da30/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/7897be1b8604fc011d9b4964d2a230e4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/7897be1b8604fc011d9b4964d2a230e4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/obadakraishan/.gradle/caches/transforms-3/6bb299e08e16771e1e73e511182f69e2/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/obadakraishan/.gradle/caches/transforms-3/6bb299e08e16771e1e73e511182f69e2/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/224e994179c65fa664c9f6d37ca6585c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/224e994179c65fa664c9f6d37ca6585c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/b4d68d15e5d6a9a001035f977c242dc7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/b4d68d15e5d6a9a001035f977c242dc7/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/obadakraishan/StudioProjects/grocer_ease/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/obadakraishan/StudioProjects/grocer_ease/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity_plus] /Users/obadakraishan/StudioProjects/grocer_ease/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/obadakraishan/.gradle/caches/transforms-3/6bb299e08e16771e1e73e511182f69e2/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/obadakraishan/.gradle/caches/transforms-3/6bb299e08e16771e1e73e511182f69e2/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:connectivity_plus] /Users/obadakraishan/StudioProjects/grocer_ease/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.appcheck.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_app_check] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/obadakraishan/StudioProjects/grocer_ease/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/obadakraishan/StudioProjects/grocer_ease/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33:19
+	android:enabled
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+	android:exported
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-40
+	android:name
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-28:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-94
+	android:name
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:36
+	android:value
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-33
+	android:name
+		ADDED from [:image_picker_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-63
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [:local_auth_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [:local_auth_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-69
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from [:pay_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/pay_android/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-69
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/obadakraishan/StudioProjects/grocer_ease/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6a0345886564be23e50aa73ef40c9acc/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/obadakraishan/.gradle/caches/transforms-3/41e083656352e5f29df799a85b7b854a/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/obadakraishan/.gradle/caches/transforms-3/87c0c15f3e2304193b00e8b5c78f9d40/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1ea4191042885fde2ae1e69d0fc4370a/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0ecd9d48618024e7f53084233ee3bf1f/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/obadakraishan/.gradle/caches/transforms-3/82458ff2031a541dc28d53787ea0eee9/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.2] /Users/obadakraishan/.gradle/caches/transforms-3/372b605405c8bcdd563c8e694b0f7723/transformed/jetified-firebase-appcheck-safetynet-16.1.2/AndroidManifest.xml:28:17-136
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-debug:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/6be514fcf97c7809005f8c260012824d/transformed/jetified-firebase-appcheck-debug-18.0.0/AndroidManifest.xml:26:17-128
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/ab35c0739184ece28cec3f5be1150667/transformed/jetified-firebase-appcheck-playintegrity-18.0.0/AndroidManifest.xml:26:17-144
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/fd5207a055a3a4e26957046f4294bb38/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/0620d2dfba3d289c02f2cdb930616e4b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/obadakraishan/.gradle/caches/transforms-3/1d7a20991850430f9057d59a72b4f121/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/obadakraishan/.gradle/caches/transforms-3/b382f6bb5709ef219b5d233e7ba6d831/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/obadakraishan/.gradle/caches/transforms-3/816e48e0d100cbf53119dced9a52843a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/obadakraishan/.gradle/caches/transforms-3/15d23cbac51e63feb0f5635a7cb0bd5d/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/8762230943483530bef061a22e6715b7/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /Users/obadakraishan/.gradle/caches/transforms-3/08a99036a8d319e078475f0a35c366c8/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/obadakraishan/.gradle/caches/transforms-3/fb84060f5235a6dd0c7c49a5c9d3729f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.grocer_ease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.grocer_ease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/obadakraishan/.gradle/caches/transforms-3/1f34447bd28b84d6779fbdd88da21311/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/obadakraishan/.gradle/caches/transforms-3/0f9e7ad7b8c676f7e0e6408b0511f0e4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/obadakraishan/.gradle/caches/transforms-3/1dc7be508d74212961fa092c512ff483/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

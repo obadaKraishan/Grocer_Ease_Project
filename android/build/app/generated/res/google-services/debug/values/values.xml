@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">15916888109</string>
+    <string name="google_api_key" translatable="false">AIzaSyBviTX7ylpwEHBtQaxGPXinA0KkD6Ru6ck</string>
+    <string name="google_app_id" translatable="false">1:15916888109:android:a70b84f907422f87f088a4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBviTX7ylpwEHBtQaxGPXinA0KkD6Ru6ck</string>
+    <string name="google_storage_bucket" translatable="false">grocery-market-88b7c.appspot.com</string>
+    <string name="project_id" translatable="false">grocery-market-88b7c</string>
+</resources>
