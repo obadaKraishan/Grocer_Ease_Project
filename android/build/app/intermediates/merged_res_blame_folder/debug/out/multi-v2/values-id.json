@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.grocer_ease.app-mergeDebugResources-45:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/obadakraishan/.gradle/caches/transforms-3/77e3ce798d2b7a5f5b84f3df3d4be372/transformed/jetified-play-services-wallet-19.2.1/res/values-id/values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "202,259",
+                        "endColumns": "56,73",
+                        "endOffsets": "258,332"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,77",
+                        "endOffsets": "111,189"
+                    }
+                }
+            ]
+        }
+    ]
+}
